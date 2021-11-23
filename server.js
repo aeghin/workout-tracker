@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const routes = require("./routes/views")
-const apiRoutes = require("./routes/api")
+const routes = require("./routes/views.js")
+const apiRoutes = require("./routes/api.js")
  
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
