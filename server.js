@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const routes = require("./routes/views")
+const routes = require("./routes/view")
 const apiRoutes = require("./routes/api")
  
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
